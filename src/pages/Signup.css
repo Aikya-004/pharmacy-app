@@ -1,0 +1,65 @@
+/* SignUp.css */
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  margin: 5mm auto 0; /* 5mm from the top */
+  padding: 16px; /* Padding inside the container */
+  border: 1px solid black; /* Border around the container */
+  border-radius: 8px; /* Rounded corners */
+  background-color:darkgrey ;/* Background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+}
+
+.register-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.animated-input-item {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.bold-label {
+  font-weight: bold;
+}
+
+.animated-placeholder-input {
+  --placeholder-color: rgba(0, 0, 0, 0.4);
+}
+
+.ion-margin-top {
+  margin-top: 16px;
+}
+
+.ion-padding {
+  padding: 16px;
+}
+
+.separator {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 16px 0;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+}
+
+.separator::before {
+  margin-right: .25em;
+}
+
+.separator::after {
+  margin-left: .25em;
+}
