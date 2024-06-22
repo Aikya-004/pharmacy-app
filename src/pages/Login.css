@@ -1,0 +1,108 @@
+/* Login.css */
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  margin: 5mm auto;
+  padding: 16px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color:darkgrey;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.animated-input-item {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.bold-label {
+  font-weight: bold;
+}
+
+.animated-placeholder-input {
+  --placeholder-color: rgba(0, 0, 0, 0.4);
+  --color-focused: #000;
+  --color: #000;
+}
+
+.ion-margin-top {
+  margin-top: 16px;
+}
+
+.ion-padding {
+  padding: 16px;
+}
+
+.additional-options-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 16px;
+}
+
+.additional-options-button {
+  font-size: 14px;
+}
+
+.black-text {
+  color: #000;
+}
+
+.or-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 16px 0;
+}
+
+.or-text {
+  background: #fff;
+  padding: 0 8px;
+  position: relative;
+  top: -10px;
+  font-weight: bold;
+  color: #666;
+}
+
+.google-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.google-icon {
+  font-size: 20px;
+  color: #4285f4;
+}
+
+.move-down {
+  margin-top: 8px; /* Adjust this value to move the label down */
+}
+
+.password-toggle-icon {
+  cursor: pointer;
+}
